@@ -7,14 +7,40 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
 	width: 960px;
+	height:100%;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
 
 /* Write all remaining styles here */
+h1.title {
+	font-size:70px;
+	color:green;
+	opacity:0.5;
+	padding: 20px 0 0 0;
+}
+
+h2.second {
+	color:green;
+	opacity: 0.5;
+}
+a img {
+	border:5px green solid;
+	opacity:0.5;
+}
+
+a:hover img {
+	border:5px green solid;
+	opacity:1.0;
+}
+
+p.footer {
+	float:right;
+	font-size:10px;
+}
