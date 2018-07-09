@@ -28,7 +28,7 @@ h1.title {
 
 a img {
 	border:5px green solid;
-	opacity:0.5;
+	opacity:1.0;
 }
 
 a:hover img {
